@@ -7,3 +7,6 @@ l=[1,2,3]
 m=[2*x for x in l]
 print(m)
 
+m=[[0]*10 for _ in range(10)]
+m[0][0]=42
+print(m)
