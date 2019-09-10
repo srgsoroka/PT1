@@ -1,16 +1,19 @@
 import random
 
-secret = random.randint(1,10)
+secret = random.randint(1, 10)
 
-while True:
+attempts = 0
+while attempts < 5:
     try:
-        guess=int(input('?'))
+        guess = int(input('?'))
     except ValueError:
         continue
-    if guess==secret:
+    attempts += 1
+    if guess == secret:
         print("Ok")
         break
-    if guess>secret:
+    if guess > secret:
         print(">")
     else:
         print("<")
+
