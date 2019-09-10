@@ -22,3 +22,12 @@ print(l2)
 
 l2=l1.copy()
 print(l2==l1)
+
+print(l)
+
+l1=[1,2,[3,4]]
+l2=l1.copy()
+l1[2][0]=5
+
+print(l1)
+print(l2)
