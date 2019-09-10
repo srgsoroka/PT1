@@ -6,3 +6,4 @@ print(m)
 l=[1,2,3]
 m=[2*x for x in l]
 print(m)
+

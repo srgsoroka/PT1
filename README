@@ -2,3 +2,5 @@ Beginning Python
 1. Cycles
 2. Collections
 3. Shallow - Deep copy(recursive, could require more resources)
+4. Correct way of matrice creation
+5. Unused variable underscore(_)
