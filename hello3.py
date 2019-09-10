@@ -16,4 +16,5 @@ while attempts < 5:
         print(">")
     else:
         print("<")
-
+else:
+    print("You are loozer")
