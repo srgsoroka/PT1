@@ -5,3 +5,6 @@ while i<len(s):
     i+=1
 for i in s:
     print(i)
+
+for i in range(2,10,3):
+    print(i)
