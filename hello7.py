@@ -33,3 +33,12 @@ print(l)
 
 l.remove(1)
 print(l)
+
+while 1 in l:
+    l.remove(1)
+
+print(l)
+
+l.sort()
+
+print(l)
