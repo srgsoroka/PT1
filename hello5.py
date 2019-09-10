@@ -31,3 +31,10 @@ l1[2][0]=5
 
 print(l1)
 print(l2)
+import copy
+l2=copy.deepcopy(l1)
+
+l1[2][0]=7
+
+print(l1)
+print(l2)
