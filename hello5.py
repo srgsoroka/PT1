@@ -9,3 +9,13 @@ l2=l1
 print(l2)
 l1[0]=0
 print(l2)
+l2=l1[:]
+l1[0]=7
+print(l1)
+print(l2)
+
+l2=l1.copy()
+l1[0]=1
+
+print(l1)
+print(l2)
