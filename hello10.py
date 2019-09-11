@@ -4,22 +4,22 @@ while True:
     action = input("""a - add
  l - list
  q - quit\n?""").lower()
-    if action=='q':
+    if action == 'q':
         break
     elif action == 'a':
-        date=input('Date?')
-        task=input('Task?')
+        date = input('Date?')
+        task = input('Task?')
         if date not in tasks:
             tasks[date] = [task]
         else:
             tasks[date].append(task)
-    elif action=='l':
+    elif action == 'l':
         date = input('Date?')
         if date in tasks:
-            for task in tasks[date]:
-                print(tasks[date])
+            for number, task in enumerate(tasks[date], 1):
+                print(number, '.', task)
         else:
-            print("There are no task on this date " +date)
+            print("There are no task on this date " + date)
     else:
         print("Incorrect input")
 
