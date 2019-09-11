@@ -10,3 +10,5 @@ print(d)
 d['b']=2
 print(d)
 print(d["a"])
+d[(1,2,3)]=123
+print(d)
