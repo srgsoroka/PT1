@@ -24,3 +24,9 @@ print(f(2))
 print(f(3))
 
 print(f(c=5))
+
+help(f)
+
+print(f(2,c=4))
+#error
+f(a=4,2,1)
