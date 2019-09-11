@@ -17,3 +17,5 @@ s1={1,2} & {3,2}
 print(s1)
 print(1 in s1)
 print(2 in s1)
+l=len({1,2,3,3,3,3,4,4,4})
+print(l)
