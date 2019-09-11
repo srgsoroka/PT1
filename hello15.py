@@ -29,4 +29,8 @@ help(f)
 
 print(f(2,c=4))
 #error
-f(a=4,2,1)
+#f(a=4,2,1)
+
+def add(x,y):
+    return x + y
+print(add(x=3,y=4))
