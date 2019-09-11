@@ -8,3 +8,5 @@ def f():
     print(x)
     x=2
 f()
+#use global
+globals()['x']
