@@ -18,3 +18,9 @@ print(d.items())
 d.pop((1,2,3))
 for key, value in d.items():
     print(key,value)
+s="hello"
+enumerate(s)
+l=list(enumerate(s))
+print(l)
+for index, value in enumerate(s):
+    print(index, value)
