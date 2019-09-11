@@ -15,6 +15,12 @@ while True:
             tasks[date].append(task)
     elif action=='l':
         date = input('Date?')
-        print(tasks[date])
+        if date in tasks:
+            for task in tasks[date]:
+                print(tasks[date])
+        else:
+            print("There are no task on this date " +date)
+    else:
+        print("Incorrect input")
 
 print(tasks)
