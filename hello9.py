@@ -27,3 +27,6 @@ print(type(d))
 #set
 d=set()
 print(type(d))
+
+f=frozenset([1,2,3])
+print(type(f))
