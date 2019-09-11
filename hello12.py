@@ -10,3 +10,6 @@ def abs(x):
     return 42
 print(abs(-5))
 print(builtins.abs(-5))
+
+import sys
+print(dir(sys))
