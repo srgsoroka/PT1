@@ -8,4 +8,5 @@ Beginning Python
 unpacking
 d.items() - generator
 local global enclosed bult-in
+type annotation
 

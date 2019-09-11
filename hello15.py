@@ -66,12 +66,14 @@ print(sum_(1, 2, 3, 4))
 d = {'a': 1, 'b': 2, 'c': 3}
 print(f(**d))
 
+
 def f(a, l=[]):
     l.append(a)
     print(l)
 
 
-print(f(1,[2,3]))
+print(f(1, [2, 3]))
 print(f(1))
 
 print(f(2))
+
