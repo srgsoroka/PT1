@@ -17,7 +17,7 @@ while True:
         date = input('Date?')
         if date in tasks:
             for number, task in enumerate(tasks[date], 1):
-                print(number, '.', task)
+                print(f"{number}. {task}")
         else:
             print("There are no task on this date " + date)
     else:
