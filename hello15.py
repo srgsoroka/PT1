@@ -46,3 +46,15 @@ def f(*args, **kwargs):
 
 
 print(f(1, 2, 3, bbb=3))
+
+print(sum([1, 2, 3, 4]))
+
+
+def sum_(*items):
+    s = 0
+    for item in items:
+        s += item
+    return s
+
+
+print(sum_(1, 2, 3, 4))
