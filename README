@@ -4,3 +4,6 @@ Beginning Python
 3. Shallow - Deep copy(recursive, could require more resources)
 4. Correct way of matrice creation
 5. Unused variable underscore(_)
+6. tuple and dictionary
+unpacking
+d.items() - generator

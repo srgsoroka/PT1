@@ -12,3 +12,9 @@ print(d)
 print(d["a"])
 d[(1,2,3)]=123
 print(d)
+for k in d:
+    print(k,d[k])
+print(d.items())
+d.pop((1,2,3))
+for key, value in d.items():
+    print(key,value)
