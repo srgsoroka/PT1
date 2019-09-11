@@ -21,3 +21,9 @@ l=len({1,2,3,3,3,3,4,4,4})
 print(l)
 print({1,2} < {3,2})
 print({1,2} < {1,2})
+#dictionary
+d={}
+print(type(d))
+#set
+d=set()
+print(type(d))
