@@ -9,7 +9,10 @@ while True:
     elif action == 'a':
         date=input('Date?')
         task=input('Task?')
-        tasks[date] = task
+        if date not in tasks:
+            tasks[date] = [task]
+        else:
+            tasks[date].append(task)
     elif action=='l':
         date = input('Date?')
         print(tasks[date])
