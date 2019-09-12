@@ -7,7 +7,7 @@ class Shape:
 # extends
 class Circle(Shape):
     def __init__(self, r, x, y):
-        Shape.__init__(self, x, y)
+        super().__init__(x,y)
         self.r = r
 
 
