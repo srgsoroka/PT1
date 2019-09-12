@@ -11,4 +11,6 @@ local global enclosed bult-in
 type annotation
 docs, doc tests - examples of using of code
 first class citizens in Python it is a function
+lambda
+
 
