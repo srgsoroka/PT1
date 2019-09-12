@@ -12,3 +12,5 @@ print(a)
 
 from module1 import *
 print(f())
+
+print(module1.f())
