@@ -14,3 +14,7 @@ from module1 import *
 print(f())
 
 print(module1.f())
+
+import module1 as m1
+
+print(m1.a)
