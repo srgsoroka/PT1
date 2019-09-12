@@ -11,3 +11,4 @@ print(a.a)
 print(a._donttouchme)
 
 print(vars(a))
+print(a._A__secret)
