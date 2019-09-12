@@ -1,6 +1,7 @@
-def add(x,y):
-    """Add x and y"""
-    return x+y
+def add(x, y):
+    """Add x and y
+    >>> add(2,3)
+    4
 
-help(add)
-
+    """
+    return x + y
