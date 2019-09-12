@@ -9,4 +9,5 @@ unpacking
 d.items() - generator
 local global enclosed bult-in
 type annotation
+docs, doc tests - examples of using of code
 
