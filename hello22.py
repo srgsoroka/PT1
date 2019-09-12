@@ -9,3 +9,7 @@ print(double)
 
 m=double(3)
 print(m)
+
+import dis
+
+dis.dis(double)
