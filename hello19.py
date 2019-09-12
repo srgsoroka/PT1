@@ -28,3 +28,4 @@ double
 print(double(44))
 
 print(f()(44))
+
