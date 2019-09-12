@@ -26,6 +26,7 @@ m= list(filter(odd,[1,2,3,4,5,6]))
 print(m)
 
 
-
+m= list(filter(lambda x: not odd(x),[1,2,3,4,5,6]))
+print(m)
 
 
